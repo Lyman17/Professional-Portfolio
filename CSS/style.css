@@ -29,6 +29,82 @@ nav{
     }
 }
 
+
+.main{
+    background-color: dimgrey;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 4px solid  black;
+    width: 94%;
+    height: 100%;
+    padding: 60px;
+    margin: 40px
+    
+    
+
+}
+
+.core {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    height: 100%;
+    border: 4px solid black;
+    padding: 60px;
+    margin: 40px;
+
+    .core1{
+        background-color: aliceblue;
+        justify-content: space-around;
+        margin: 4px;
+        padding: 20px;
+        border: 4px solid black
+    }
+}
+
+.proofs {
+background-color: cadetblue;
+   display: flex;
+   flex: wrap;
+   Flex-direction: row;
+   justify-content: space-around;
+   align-items:center;
+   width: 94%;
+   border: 4px solid black;
+   Padding: 40px;
+   margin: 40px;
+     
+    .proof1{ 
+        background-color: crimson;
+        width:24%;
+        padding: 10%;
+        border: 4px solid black;
+    }
+    .proof2{
+        background-color: White;
+        width:24%;
+        padding: 10%;
+        border: 4px solid black;
+    }
+    .proof3{ 
+        background-color:blue;
+        width:24%;
+        padding: 10%;
+        border: 4px solid black;
+
+    }
+    .proof4{
+        background-color: yellow;
+        width:24%;
+        padding: 10%;
+        border: 4px solid black;
+    }
+}
 /* parent container, with display flex;
 justify content center;
 align items center;
