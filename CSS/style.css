@@ -1,5 +1,5 @@
 header{
-    background-color: lightblue;
+    background-color: cadetblue;
     min-height: 80px;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@ nav{
 
 
 .core {
-    background-color: blue;
+    background-color: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@ nav{
     margin: 40px;
 
     .core1{
-        background-color: aliceblue;
+        background-color: dimgrey;
         justify-content: space-around;
         width: 94%;
         margin: 4px;
@@ -71,7 +71,7 @@ nav{
 }
 
 .proofs {
-   background-color: cadetblue;
+   background-color: grey;
    display: flex;
    justify-content: space-around;
    align-items:center;
