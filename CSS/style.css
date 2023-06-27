@@ -29,6 +29,11 @@ nav{
     }
 }
 
+.img{
+    max-height: 20%;
+    max-width:15%
+    
+}
 
 .main{
     background-color: dimgrey;
@@ -37,12 +42,12 @@ nav{
     align-items: center;
     justify-content: space-around;
     border: 4px solid  black;
+    border-radius: 20px;
     width: 94%;
     height: 100%;
     padding: 60px;
     margin: 40px
-    
-
+  
 
 }    
     
@@ -57,16 +62,18 @@ nav{
     align-items: center;
     width: 94%;
     border: 4px solid black;
+    border-radius: 20px;
     padding: 20px;
     margin: 40px;
 
     .core1{
-        background-color: dimgrey;
+        background-color: steelblue;
         justify-content: space-around;
         width: 94%;
         margin: 4px;
         padding: 20px;
         border: 4px solid black;
+        border-radius: 20px;
     }
 }
 
@@ -77,35 +84,39 @@ nav{
    align-items:center;
    width: 94%;
    border: 4px solid black;
-   box-shadow:;
+   border-radius: 20px;
    padding: 40px;
    margin: 40px;
      
     .proof1{ 
-        background-color: crimson;
+        background-color: cadetblue;
         width:24%;
         padding: 10%;
         border: 4px solid black;
+        border-radius: 10px;
     }
 
     .proof2{
-        background-color: White;
+        background-color: cadetblue;
         width:24%;
         padding: 10%;
         border: 4px solid black;
+        border-radius: 10px;
     }
     .proof3{ 
-        background-color:blue;
+        background-color:cadetblue;
         width:24%;
         padding: 10%;
         border: 4px solid black;
+        border-radius: 10px;
 
     }
     .proof4{
-        background-color: yellow;
+        background-color: cadetblue;
         width:24%;
         padding: 10%;
         border: 4px solid black;
+        border-radius: 10px;
     }
 }
 
@@ -117,6 +128,7 @@ nav{
     padding: 40px;
     margin: 20px;
     border: 4px solid black;
+    border-radius: 20px;
   
     .footerlist{
         background-color:steelblue;
@@ -125,7 +137,8 @@ nav{
         align-items: center;
         width: 50%;
         padding: 10px;
-        border: 1px solid black;
+        border: 3px solid black;
+        border-radius: 40px;
 
 
   }
