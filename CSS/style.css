@@ -6,19 +6,20 @@ header{
     align-items: center;
     padding: 0px 10px;
     font-size: 30px;
-}
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}   
+/* header layout, spacing & font */
 header > div {
     width: 30%
 }
-
+/* below controls the nav links width, spacing & display */
 nav{
     width: 50%;
     display:flex;
     justify-content: space-evenly;
 }
 
-
+/* the following controls the screen size adjustments */
 
 @media screen and (max-width: 600px) {
     header{
@@ -29,7 +30,9 @@ nav{
         width:90%;
     }
 }
-
+/* this controls the size of the headhot photo
+ (this one took me WAY too long to figure out, 
+ but then, come to find out it was fairly easy) */
 .img{
     
     max-height: 90%;
@@ -88,7 +91,7 @@ nav{
    border-radius: 20px;
    padding: 40px;
    margin: 40px;
-     
+     /* TODO - pretty sure I have MANY opportunities to REFACTOR */
     .proof1{ 
         background-color: cadetblue;
         width:24%;
@@ -145,12 +148,3 @@ nav{
   }
 
 }
-/* parent container, with display flex;
-justify content center;
-align items center;
- */
-
- /* image has width: 100%;
- height: 100%; */
-
- /* div */
