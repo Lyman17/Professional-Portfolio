@@ -1,62 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/reset.css">
-        <link rel="stylesheet" href="./CSS/style.css">
 
-    <title>Professional Portfolio</title>
-</head>
-<body>
-    <header>
-        <div><strong>Brian Lyman</strong></div>
-        <!-- I got help from the TA's in order to make these link , dont judge me, Im new-->
-            <a href="#proof1">Passion</a>
-            <a href="#proof2">Purpose</a>
-            <a href="#proof3">Power</a>
-            <a href="#proof4">Production</a>
-        </nav>
-    </header>
-    <main class="main">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header class="hero">
+            <nav>
+                <h1 class="label">Port<span>folio</span></h1>
+                <ul>
+                  <li><a href="#about-me">About Me</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-statement">
+                <div class="hero-name">
+                  <h2>Brian<span class="dot"></span><span class="dot"></span> Lyman</h2>
+                  <h4>Full Stack Developer</h4>
+                  <div class="button"><a class="link" href="#contact">Hire Me</div></a>
+                </div>
+            </div>
+        </header>
 
-       <div>
-        <!-- /!*This is my Photo - I was able to add the file & link it! (yes, it's my 1st time, go easy)//! -->
-         <img class="img" src="Headshot-BrianLyman.jpg" alt="Headshot of Brian">
-        </div> 
-        
-         
-       
-    </main>
+        <section id="about-me" class="content">
+            <div class="about">
+                <h2>About Me</h2>
+                <p>Hello, My name is Brian Lyman. I am a Father, husband & a Full Stack Developer who loves working with creative and motivated people.</p>
+            </div>
+            <div class="avatar-area">
+                <img class="avatar" src="./assets/images/Headshot-BrianLyman.jpg" alt="Photo of Brian Lyman" />
+            </div>
+        </section>
 
-  <div class="core">
-    <!-- About me section - MY 4 CORE VALUES compartmentalized -->
-    <div class="core1">
-     <div class="core1">Purpose - Mind - Focused on maintaining a mindset of growth & abundance through continuous progression</div>
-     <div class="core1">Power - Body - Create strenth, endurance, & mental fortitude through proper sleep, diet & excersise</div>
-     <div class="core1">Production - Business - Focused on adding value to others through principaled & ethical means</div>
-     <div class="core1">Passion - Relationships - My Family is my 'why" - People come first & then things.  </div>
-     
-    </div>  
-</body>
+        <section id="projects" class="content-alt">
+            <h2 class="work">Projects</h2>
+            <div id="main-card" class="project-card">
+                <h5>Project One</h5>
+                <div class="image">
+                    <a href="https://lyman17.github.io/Accessiblity-in-HTMl/"><img class="project-img" src="./assets/images/Lyman17.github.io_HTML-CSS-Git-Challenge_.png" alt="Project Image One" /></a>
+                </div>
+                <p class="project-text">This is a Code Refactor project with semantic elements for accessibility.</p>
+            </div>
+                <div class="project-section">
+                    <div class="project-card">
+                        <h5>Project Two</h5>
+                        <div class="image">
+                            <a href="https://github.com/Lyman17"><img class="project-img" src="./assets/images/181129-Website-GDPR-Picture.jpeg" alt="Project Image Two" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                    </div>
+                    <div class="project-card">
+                        <h5>Project Three</h5>
+                        <div class="image">
+                            <a href="https://github.com/Lyman17"><img class="project-img" src="./assets/images/web-project-proposal-free-powerpoint-template-0.jpeg" alt="Project Image Three" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                    </div>
+                    <div class="project-card">
+                        <h5>Project Four</h5>
+                        <div class="image">
+                            <a href="https://github.com/Lyman17"><img class="project-img" src="./assets/images/web_ilY3NoA.webp" alt="Project Image Four" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                    </div>
+                    <div class="project-card">
+                        <h5>Project Five</h5>
+                        <div class="image">
+                            <a href="https://github.com/Lyman17"><img class="project-img" src="./assets/images/website-design-concept-pms-responsive-tablet-device.jpeg" alt="Project Image Five" /></a>
+                        </div>
+                        <p class="project-text">This is a placeholder project.</p>
+                    </div>
+                </div>
+        </section>
 
-<proof class="proofs"> 
-   
-    <a id="proof1" class="proof1" href="https://c-hickman23.github.io/Musk-Vs.-Zuck/" alt="link to Passion">Passion project 1!</a> 
-    <a id="proof2" class="proof2" href="insert link here" alt="link to Purpose">Purpose project coming soon!</a> 
-    <a id="proof3" class="proof3" href="insert link here" alt="link to Power">Power project coming soon!</a> 
-    <a id="proof4" class="proof4" href="insert link here" alt="link to Production">Production project coming soon!</a> 
-     <!-- I intend to insert links & photos into the boxes of these future projects -->
-
-</proof> 
-
-<footer class="footer"> 
-  
-   <a class="footerlist" href="https://www.facebook.com/brian.lyman.17" alt="Facebook profile link">Facebook</a> 
-   <a class="footerlist" href="https://www.instagram.com/realtorlifeofbrian/" alt="Instagram Profile link">Instagram</a>
-   <a class="footerlist" href="https://www.linkedin.com/in/lyman17/" alt="Linkedin profile link">LinkedIn</a>
-   <a class="footerlist" href="https://github.com/Lyman17" alt="GitHub profile link">GitHub</a>
-   
- <!-- I intend to turn these links into 4 photos of each of their persepective icons -->
-</footer>
+        <footer id="contact" >
+            <h2 class="contact-info">Contact Me</h2>
+            <p>Brian@UtahMLShomes.com</p>
+        </footer>
+    </body>
 </html>

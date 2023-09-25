@@ -1,0 +1,185 @@
+/* Set the custom universal font-famly */
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+/* Hero background image set to full viewport height and width */
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/material_minimal-other.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Aligned the navbar evenly spaced along the top */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-shadow: 1px 1px black;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+}
+/* Added a hover effect to the navbar links */
+li a:hover {
+    color: #90CAF9;    
+    transition: .5s;
+    font-size: 32px;
+}
+
+.label {
+    font-size: 60px;
+    color: whitesmoke;
+}
+/* Added two-toned font coloring to nav title and name */
+span {
+    color: #90CAF9;
+}
+
+.dot {
+    color: whitesmoke;
+}
+/* Positions the name and button centered to the right */
+.hero-statement {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+.button {
+    background-color: #90CAF9;
+    width: 125px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* Creates a background color change and shadow effect to the button */
+.button:hover {
+    background-color: lightcoral;
+    box-shadow: 2px 2px #90CAF9;
+}
+
+h2 {
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    margin-bottom: 20px;
+    color: #90CAF9;
+}
+
+h3 {
+    font-size: 40px;
+    color: black;
+}
+
+h4 {
+    font-size: 25px;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+h5 {
+    font-size: 30px;
+    color: black;
+}
+
+p {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 70px;
+}
+/* Aligns the about me sections */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+/* Positions the Projects sections to have a centered title */
+.content-alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px;
+}
+/* Avatar image */
+.avatar {
+    width: 400px;
+    border-radius: 150px;
+}
+/* Sets the smaller project cards to wrap on smaller screens */
+.project-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Styling to the project cards as well as background image */
+.project-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 20px;
+    border-radius: 8px;
+    background-image: url(../assets/images/vector-abstract-gradient-background-dynamic-shapes-composition.jpeg);
+    background-position: center;
+    padding: 20px;
+}
+
+.project-text {
+    font-size: 25px;
+}
+/* positions the first project card to be larger than the others */
+#main-card {
+    width: auto;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-image: url(../assets/images/vector-abstract-gradient-background-dynamic-shapes-composition.jpeg);
+    background-position: center;
+}
+/* sizes and adds a round border to the project images */
+.project-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    box-shadow: 5px 5px 15px black;
+}
+/* Removes the underlined link decoration */
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/* Sets the navbar links to flex-wrap under 900px screens */
+@media (max-width: 900px) {
+    nav li {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
